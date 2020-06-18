@@ -28,8 +28,8 @@
 					<!-- 群组的groupID -->
 					<property name="connectionsStr">
 						<list>
-<value>172.16.56.108:20202</value>
-<value>172.16.56.108:20203</value>
+<value>172.16.0.10:20200</value>
+<value>172.16.0.10:20201</value>
 						</list>
 					</property>
 				</bean>

@@ -1,0 +1,28 @@
+[group]
+id = 1
+timestamp = 1592464550000
+	
+
+[consensus]
+consensus_type = pbft
+max_trans_num = 1000
+epoch_sealer_num = 4
+epoch_block_num = 1000
+node.0 = 85a4fbad8c0ec50e70fd7aeb188746591e8a58fe56837101ddf3a41d3698d48387051153ad531d1d8ef4b3b2ee252b42a7cfaa069d82804a2174f8f4721182f5
+	
+node.1 = cc4b72a77542b2959d1eb89442a8936da38ed4dcd2afe063d8a549f6a11444f2f43732efaba80c351ad4de5ff302da4367f7edee83113ba7626a76ec2b6ec9ae
+	
+node.2 = a871a8d31582f8ed11f879236a768dc0345f391a12ff41035722767dd6dbcef6d41d8ef100eedd5faad3a90052efc3902a2031f5939990eaf0ea5f3a9ba88efe
+	
+node.3 = 67891f7e6921f8bbb1fa1334660ca5633b0a28e6dcfb26aa553fb814cf1948683cfc72da272cccee97cf32565a94203df575adba87f00d06c1e7714b81be2b71
+	
+
+[state]
+type = storage
+
+[tx]
+gas_limit = 300000000
+
+[evm]
+enable_free_storage = false
+
